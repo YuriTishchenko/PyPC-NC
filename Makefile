@@ -1,4 +1,5 @@
-LRELEASE := lrelease-qt4
+# LRELEASE := lrelease-qt4
+LRELEASE := lrelease
 
 all:
 	$(MAKE) -C ui/ $@

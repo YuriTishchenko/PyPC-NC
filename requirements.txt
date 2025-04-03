@@ -1,0 +1,6 @@
+pyserial==3.5
+PySide2==5.15.2.1
+shiboken2==5.15.2.1
+shiboken6==6.9.0
+style==1.1.0
+update==0.0.1

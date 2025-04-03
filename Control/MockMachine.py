@@ -457,5 +457,5 @@ class MockMachine:
 		try:
 			return self.staticAnswers[command]
 		except KeyError:
-			print "Unsupported command: %s" % command
+			print("Unsupported command: %s" % command)
 			return "*001"

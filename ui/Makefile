@@ -6,4 +6,5 @@ clean:
 	rm -f $(PYFILES)
 
 %.py: %.ui
-	pyside-uic -o $@ $<
+# 	pyside-uic -o $@ $<
+	/home/yuri/DEV/PyPC-NC/venv/bin/pyside2-uic -o $@ $<

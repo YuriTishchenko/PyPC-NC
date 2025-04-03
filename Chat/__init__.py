@@ -1,4 +1,4 @@
-from PySide import QtCore, QtGui
+from PySide2 import QtCore, QtGui
 
 class ChatLog(QtCore.QObject):
 	"""Log of full chat activity"""
@@ -17,8 +17,8 @@ class ChatLog(QtCore.QObject):
 		self._log.append(entry)
 
 		if direction == "in":
-			print "<<<", message
+			print("<<<", message)
 		else:
-			print ">>>", message
+			print(">>>", message)
 
 		self.newMessage.emit(direction, message)
